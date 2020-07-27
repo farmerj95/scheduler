@@ -1,0 +1,94 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap');
+
+/* Set font for page */
+* {
+  font-family: 'M PLUS 1p', sans-serif;
+}
+
+/* Body CSS */
+body {
+  font-size: 16px;
+  line-height: 1;
+  background-color: rgb(193, 230, 240);
+}
+
+/* Text box CSS */
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+/* Jumbotron / Header CSS */
+.jumbotron {
+  text-align: center;
+  background-color: rgb(107, 125, 226);
+  color: rgb(91, 212, 202);
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+/* Time / Save CSS */
+.time-block,
+.save-block {
+  text-align: left;
+  border-radius: 15px;
+  color: black;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
+}
+
+.buttonDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px ;
+}
+
+.hour {
+  color: #000000;
+  border-top: 1px dashed #000000;
+  border-bottom: 1px dashed #000000;
+  font-size: large;
+}
+
+/* Color Coding based on times */
+.past {
+  background-color: #d3d3d3;
+}
+
+.present {
+  background-color: #ff6961;
+}
+
+.future {
+  background-color: #77dd77;
+}
+
+/* Button CSS */
+.clr-btn {
+  border: 1px solid black;
+}
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: rosybrown;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
