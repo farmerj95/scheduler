@@ -26,8 +26,8 @@ textarea {
 /* Jumbotron / Header CSS */
 .jumbotron {
   text-align: center;
-  background-color: rgb(107, 125, 226);
-  color: rgb(91, 212, 202);
+  background-color: rgb(244, 244, 248);
+  color: rgb(0, 2, 1);
   border-radius: 0;
   border-bottom: 10px solid black;
 }
@@ -84,7 +84,7 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: rosybrown;
+  background-color: rgb(55, 25, 228);
   color: white;
 }
 

@@ -72,10 +72,4 @@ $(document).ready(function () {
     saveButton.click(addText);
     displayToDo();
 
-    // clear scheduler
-    clearBtn.on("click", function () {
-        localStorage.clear();
-        textBox.empty();
-        location.reload();
-    });
 });
