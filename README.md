@@ -4,7 +4,7 @@
 
 Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
-You may access the work scheduler app here: https://farmerj95.github.io/sheduler/
+You may access the work scheduler app here: https://farmerj95.github.io/scheduler/
 
 
 ## Requirments:
